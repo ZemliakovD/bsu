@@ -20,7 +20,7 @@ a:hover{
 
 h2{
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 26px;
     color: #004AAD;
     text-transform: uppercase;
@@ -68,12 +68,13 @@ ul, ol{
 }
 
 .container{
-    max-width: 1345px;
+    max-width: 1348px;
     margin: 0 auto;
 }
 
 .header{
     font-family: "Ubuntu Sans", sans-serif;
+    border-bottom: 1px solid #E4E4E4;
 }
 
 .menu-inner .navbar-toggler{
@@ -95,7 +96,7 @@ ul, ol{
     justify-content: space-between;
 }
 
-.menu{
+.nav-underline .nav-link{
     padding-top: 47px;
     padding-bottom: 47px;
 }
@@ -458,6 +459,8 @@ ul, ol{
     max-width: fit-content;
 }
 
+/* Стили футера */
+
 .footer{
     background-color: #004AAD;
     color: #fff;
@@ -527,3 +530,84 @@ ul, ol{
     text-transform: uppercase;
     text-align: left;
 }
+
+/* Конец стилей футера */
+
+/* Стили для страницы SEMINARS */
+
+.seminar-page{
+    background-color: #ffffff;
+    margin-bottom: 28px;
+}
+
+.seminar-page .lessons-card{
+    margin-bottom: 0;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.seminar-page .lessons-card:first-child{
+    border-top: 1px solid #E4E4E4;
+}
+
+.seminar-page .lessons-inner h2{
+    margin-bottom: 74px;
+}
+
+/* Конец стилей страницы SEMINARS */
+
+/* Стили для страницы COURSES */
+
+.courses{
+    padding-top: 74px;
+    padding-bottom: 122px;
+    background-color: #FAFAFA;
+}
+
+.courses h2{
+    margin-bottom: 60px;
+}
+
+.courses-general{
+    margin-bottom: 94px;
+}
+
+.courses-elective{
+    margin-bottom: 111px;
+}
+
+.courses-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.courses-list-item{
+    background-color: #fff;
+    padding: 20px;
+    width: 25%;
+    max-width: 319px;
+    height: fit-content;
+    min-height: 168px;
+    border-radius: 15px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.courses-list-item:nth-child(4), .courses-list-item:nth-child(8), .courses-list-item:nth-child(12), .courses-list-item:nth-child(16), .courses-list-item:nth-child(20){
+    margin-right: 0;
+}
+
+.courses-list-item h3{
+    margin-bottom: 12px;
+}
+
+.courses-list-item p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 200%;
+}
+
+.courses-list-item p span{
+    font-weight: 700;
+}
+
+/* Конец стилей для страницы COURSES */
