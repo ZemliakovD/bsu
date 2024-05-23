@@ -18,8 +18,20 @@ a:hover{
     cursor: url('../img/icons/cursor-material.png'),auto;
 }
 
+h1{
+    font-family: "Ubuntu Sans", sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4.8px;
+    margin-bottom: 23px;
+    text-align: center;
+    color: #004AAD;
+}
+
 h2{
-    font-size: 36px;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-size: 26px;
     font-weight: 700;
     margin-bottom: 26px;
     color: #004AAD;
@@ -134,11 +146,6 @@ ul, ol{
 .main-inner h1{
     max-width: 972px;
     margin: 0 auto;
-    font-size: 48px;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 4.8px;
-    margin-bottom: 23px;
 }
 
 .main-inner p{
@@ -540,9 +547,14 @@ ul, ol{
     margin-bottom: 28px;
 }
 
+.seminar-page h1{
+    margin-bottom: 74px;
+}
+
 .seminar-page .lessons-card{
     margin-bottom: 0;
     border-bottom: 1px solid #E4E4E4;
+    border-radius: 0;
 }
 
 .seminar-page .lessons-card:first-child{
@@ -563,8 +575,15 @@ ul, ol{
     background-color: #FAFAFA;
 }
 
+.courses h1{
+    margin-bottom: 60px;
+}
+
 .courses h2{
     margin-bottom: 60px;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 4.8px;
 }
 
 .courses-general{
@@ -611,3 +630,230 @@ ul, ol{
 }
 
 /* Конец стилей для страницы COURSES */
+
+/* Стили для страницы STAFF */
+
+.staff-inner{
+    padding-top: 74px;
+    padding-bottom: 74px;
+}
+
+.staff-inner h1, .staff-inner h2{
+    margin-bottom: 74px;
+}
+
+.staff-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.staff-card{
+    display: flex;
+    width: 50%;
+    max-width: 661px;
+    margin-bottom: 50px;
+}
+
+.staff-card img{
+    margin-right: 25px;
+    border-radius: 15px;
+}
+
+.staff-card h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.staff-card p, .staff-card a{
+    text-decoration: none;
+    color: #171717;
+    line-height: 200%;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.staff-card p span{
+    font-weight: 700;
+}
+
+
+/* Конец стилей для страницы STAF */
+
+/* Стили для страницы PUBLICATIONS */
+
+.publications-inner{
+    padding-top: 74px;
+    padding-bottom: 14px;
+}
+
+.publications-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 74px;
+}
+
+.publications-title p{
+    font-family: "Ubuntu Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: #004AAD;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    letter-spacing: 4.8px;
+}
+
+.publications-inner h2{
+    font-size: 48px;
+    margin-bottom: 0;
+    letter-spacing: 4.8px;
+}
+
+.publications-content{
+    margin-bottom: 65px;
+}
+
+.publications-item{
+    padding: 22px 25px 25px 25px;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.publications-item:first-child{
+    border-top: 1px solid #E4E4E4;
+}
+
+.publications-item p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 200%;
+    margin-bottom: 9px;
+}
+
+.publications-item span{
+    font-size: 16px;
+    line-height: 200%;
+    font-weight: 400;
+}
+
+
+.publications-item a{
+    font-size: 16px;
+    line-height: 200%;
+    font-weight: 400;
+    color: #004AAD;
+    text-decoration: underline;
+}
+
+/* Конец стилей для страницы PUBLICATIONS */
+
+/* Стили для страницы PARTNERS */
+
+.partners{
+    background-color: #FAFAFA;
+}
+
+.partners-inner{
+    padding-top: 74px;
+    padding-bottom: 116.33px;
+}
+
+.partners-inner h1{
+    margin-bottom: 74px;
+}
+
+.partners-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partners-card{
+    width: 25%;
+    max-width: 319px;
+    background-color: #fff;
+    text-align: center;
+    padding: 26px 26.5px 26px 26.5px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+}
+
+.partners-card:nth-child(4), .partners-card:nth-child(8), .partners-card:nth-child(12), .partners-card:nth-child(16), .partners-card:nth-child(20){
+    margin-right: 0;
+}
+
+.partners-card img{
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+.partners-card a{
+    color: #171717;
+}
+
+.partners-card a:hover{
+    color: #004AAD;
+}
+
+.partners-card p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 156%;
+}
+
+/* Конец стилей для страницы PARTNERS */
+
+/* Стили для страницы PROJECTS */
+
+.projects-inner{
+    padding-top: 74px;
+    padding-bottom: 82px;
+}
+
+.projects-main h1{
+    margin-bottom: 58px;
+}
+
+.projects-main p{
+    max-width: 777px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+}
+
+.projects-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-card{
+    width: 25%;
+    max-width: 319px;
+    text-align: center;
+    background-color: #FAFAFA;
+    border-radius: 15px;
+    padding: 26.5px 30px;
+    min-height: 173px;
+    display: flex;
+    align-items: center;
+}
+
+.info-card p{
+    max-width: 259px;
+    color: #004AAD;
+    font-size: 20px;
+    line-height: 200%;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+/* Конец стилей для страницы PROJECTS */
