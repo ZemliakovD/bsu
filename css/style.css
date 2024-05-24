@@ -1,8 +1,8 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     line-height: 200%;
@@ -10,15 +10,15 @@ body{
     color: #171717;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-a:hover{
-    cursor: url('../img/icons/cursor-material.png'),auto;
+a:hover {
+    cursor: url('../img/icons/cursor-material.png'), auto;
 }
 
-h1{
+h1 {
     font-family: "Ubuntu Sans", sans-serif;
     font-size: 48px;
     text-transform: uppercase;
@@ -29,38 +29,50 @@ h1{
     color: #004AAD;
 }
 
-h2{
+h2 {
     font-family: "Ubuntu Sans", sans-serif;
-    font-size: 26px;
+    font-size: 36px;
     font-weight: 700;
     margin-bottom: 26px;
     color: #004AAD;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 3.6px;
 }
 
-h3{
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 156%;
-    text-align: left;
-    margin-bottom: 9px;
-}
-
-h4{
-    font-size: 18px;
-    line-height: 200%;
+h3 {
+    font-size: 28px;
+    line-height: 150%;
     font-weight: 600;
-    margin-bottom: 3px;
-
 }
 
-ul, ol{
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+h5 {
+    font-size: 22px;
+    line-height: 161%;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 18px;
+    line-height: 156%;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+ul,
+ol {
     list-style-type: none;
 }
 
-.button{
+.button {
     display: inline-block;
     margin: 0 auto;
     font-size: 21px;
@@ -71,94 +83,104 @@ ul, ol{
     padding: 3px 27px 6px 27px;
     border-radius: 86px;
     transition: all .5s;
-    cursor: url('../img/icons/cursor-material.png'),auto;
+    cursor: url('../img/icons/cursor-material.png'), auto;
 }
 
-.button:hover{
+.button:hover {
     background-color: #002F6E;
     transition: all .5s;
 }
 
-.container{
+.container {
     max-width: 1348px;
     margin: 0 auto;
 }
 
-.header{
+/* Стили HEADER */
+
+.header {
     font-family: "Ubuntu Sans", sans-serif;
     border-bottom: 1px solid #E4E4E4;
 }
 
-.menu-inner .navbar-toggler{
+.menu-inner .navbar-toggler {
     display: none;
 }
 
-.header-inner .container-fluid{
+.header-inner .container-fluid {
     display: block;
 }
 
-.header-inner .navbar{
+.header-inner .navbar {
     padding-top: 0;
     padding-bottom: 0;
 }
 
-.menu-inner{
+.menu-inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.nav-underline .nav-link{
+.nav-underline .nav-link {
     padding-top: 47px;
     padding-bottom: 47px;
 }
 
-.nav-link{
+.nav-link {
     padding: 0;
     color: #171717;
     font-size: 15px;
     font-weight: 700;
 }
 
-.nav-link:focus, .nav-link:hover{
+.nav-link:focus,
+.nav-link:hover {
     color: #004AAD;
 }
 
-.phone{
+.phone {
     color: #004AAD;
     font-size: 18px;
     font-weight: 700;
     line-height: 200%;
 }
 
-.main{
+/* Конец стилей HEADER */
+
+/* Стили главной страницы */
+
+.main {
     background-color: #004AAD;
     color: #fff;
     margin-bottom: 65px;
 }
 
-.main-inner{
+.main-inner {
     padding-top: 74px;
     padding-bottom: 82px;
     text-align: center;
 }
 
-.main-inner h1{
+.main-inner h1 {
     max-width: 972px;
     margin: 0 auto;
+    color: #fff;
+    margin-bottom: 23px;
 }
 
-.main-inner p{
+.main-inner p {
+    font-family: "Ubuntu Sans", sans-serif;
     font-size: 24.49px;
     font-weight: 400;
     letter-spacing: 2.4px;
 }
 
-.about{
+.about {
     margin-bottom: 46px;
 }
 
-.about-inner p{
+.about-inner p {
     color: #000000;
     font-size: 16px;
     font-weight: 400;
@@ -169,18 +191,18 @@ ul, ol{
     margin-bottom: 20px;
 }
 
-.research{
+.research {
     background-color: #FAFAFA;
     margin-bottom: 85px;
 }
 
-.research-inner{
+.research-inner {
     padding-top: 64px;
     padding-bottom: 83px;
     text-align: center;
 }
 
-.research-inner p{
+.research-inner p {
     color: #171717;
     line-height: 200%;
     font-size: 16px;
@@ -190,25 +212,25 @@ ul, ol{
     margin-bottom: 34px;
 }
 
-.personal{
+.personal {
     margin-bottom: 98px;
 }
 
-.presonal-inner{
+.presonal-inner {
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
-.personal-info, .personal-foto{
+.personal-info,
+.personal-foto {
     width: 50%;
 }
 
-.personal-info h2{
+.personal-info h2 {
     text-align: left;
 }
 
-.personal-info p{
+.personal-info p {
     font-size: 16px;
     font-weight: 400;
     text-align: left;
@@ -217,17 +239,15 @@ ul, ol{
 }
 
 
-.personal-foto img{
+.personal-foto img {
     width: 100%;
-    object-fit: cover;
-    max-width: 548px;
 }
 
-.lectures{
+.lectures {
     margin-bottom: 78px;
 }
 
-.lectures-inner p{
+.lectures-inner p {
     font-size: 16px;
     color: #171717;
     font-weight: 400;
@@ -238,33 +258,34 @@ ul, ol{
     margin-bottom: 40px;
 }
 
-.blog-inner{
+.blog-inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 60px;
 }
 
-.blog-card{
+.blog-card {
     width: 25%;
     max-width: 319px;
+    min-height: 345px;
     background-color: #FAFAFA;
     padding: 26px 27px 20px 26px;
     border-radius: 15px;
 }
 
-.blog-card img{
+.blog-card img {
     border-radius: 15px;
     width: 100%;
     max-width: 266px;
     margin-bottom: 19px;
 }
 
-.blog-card h3{
-    min-height: 56.16px;
+.blog-card h6 {
+    margin-bottom: 9px;
 }
 
-.blog-card p{
+.blog-card p {
     text-align: left;
     font-size: 15px;
     font-weight: 400;
@@ -273,27 +294,27 @@ ul, ol{
     min-height: 60px;
 }
 
-.blog-card p span{
+.blog-card p span {
     font-weight: 700;
 }
 
-.lectures-inner .button{
+.lectures-inner .button {
     text-align: center;
     display: block;
     max-width: fit-content;
 }
 
-.lessons{
+.lessons {
     background-color: #FAFAFA;
     margin-bottom: 76px;
 }
 
-.lessons-inner{
+.lessons-inner {
     padding-top: 75px;
     padding-bottom: 92px;
 }
 
-.lessons-inner p{
+.lessons-inner p {
     font-size: 16px;
     font-weight: 400;
     line-height: 200%;
@@ -303,7 +324,7 @@ ul, ol{
     margin-bottom: 41px;
 }
 
-.lessons-card{
+.lessons-card {
     background-color: #fff;
     padding: 34px 32px 33px 32px;
     border-radius: 15px;
@@ -311,18 +332,22 @@ ul, ol{
     margin-bottom: 59px;
 }
 
-.lessons-card img{
+.lessons-card img {
     max-width: 317px;
     max-height: 190px;
     margin-right: 34px;
     border-radius: 15px;
 }
 
-.lesson-info{
+.lessons-card h6 {
+    margin-bottom: 5px;
+}
+
+.lesson-info {
     max-width: 672px;
 }
 
-.lesson-info span{
+.lesson-info span {
     color: #004AAD;
     font-size: 14px;
     font-weight: 700;
@@ -330,34 +355,34 @@ ul, ol{
     margin-bottom: 5px;
 }
 
-.lesson-info h3{
+.lesson-info h6 {
     margin-bottom: 5px;
 }
 
-.lesson-info p{
+.lesson-info p {
     font-size: 15px;
     margin-bottom: 5px;
     text-align: left;
 }
 
-.lesson-info p span{
+.lesson-info p span {
     font-weight: 700;
     color: #000000;
     font-size: 15px;
 }
 
-.lessons .button{
+.lessons .button {
     text-align: center;
     display: block;
     max-width: fit-content;
 }
 
-.articles{
+.articles {
     margin-bottom: 107px;
     text-align: center;
 }
 
-.articles-inner p{
+.articles-inner p {
     font-size: 16px;
     max-width: 655px;
     margin: 0 auto;
@@ -366,25 +391,25 @@ ul, ol{
     line-height: 200%;
 }
 
-.friends{
+.friends {
     background-color: #FAFAFA;
 }
 
-.friends-inner{
+.friends-inner {
     padding-top: 79px;
     padding-bottom: 66.33px;
 }
 
-.friends-inner h2{
+.friends-inner h2 {
     text-align: left;
     margin-bottom: 57px;
 }
 
-.friends-slider{
+.friends-slider {
     margin-bottom: 57px;
 }
 
-.slick-prev{
+.slick-prev {
     border: none;
     background-image: url(../img/icons/left.png);
     width: 45px;
@@ -398,17 +423,17 @@ ul, ol{
     position: absolute;
     top: -60%;
     right: 5%;
-    
+
 }
 
-.slick-prev:hover{
+.slick-prev:hover {
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.20);
     transition: all .5s;
-    cursor: url('../img/icons/cursor-material.png'),auto;
-    
+    cursor: url('../img/icons/cursor-material.png'), auto;
+
 }
 
-.slick-next{
+.slick-next {
     border: none;
     background-image: url(../img/icons/right.png);
     width: 45px;
@@ -424,81 +449,89 @@ ul, ol{
     right: 0%;
 }
 
-.slick-next:hover{
+.slick-next:hover {
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.20);
     transition: all .5s;
-    cursor: url('../img/icons/cursor-material.png'),auto;
+    cursor: url('../img/icons/cursor-material.png'), auto;
 }
 
-.friends-slider-item{
+.friends-slider-item {
     width: 25%;
     max-width: 319px;
     margin-right: 10px;
 }
 
-.friends-slider-item:last-child{
+.friends-slider-item:last-child {
     margin-right: 0;
 }
 
-.friends-slider-foto img{
+.friends-slider-foto img {
     width: 100%;
     min-width: 266px;
     max-width: 266px;
     margin-bottom: 21px;
 }
 
-.friends-slider-inner{
+.friends-slider-inner {
     background: #fff;
     text-align: center;
     padding: 26px 26.5px 26px 26.5px;
     border-radius: 20px;
 }
 
-.friends-slider-info p{
+.friends-slider-info p {
     font-size: 20px;
     line-height: 156%;
     font-weight: 600;
 }
 
-.friends .button{
+.friends .button {
     text-align: center;
     display: block;
     max-width: fit-content;
 }
 
+/* Конец стилей главной страницы */
+
 /* Стили футера */
 
-.footer{
+.footer {
     background-color: #004AAD;
     color: #fff;
 }
 
-.footer a{
+.footer h6 {
+    font-weight: 600;
+    line-height: 200%;
+    margin-bottom: 3px;
+}
+
+.footer a {
     color: #fff;
 }
 
-.footer-inner{
+.footer-inner {
     display: flex;
     justify-content: space-between;
     padding-top: 41px;
     padding-bottom: 37px;
 }
 
-.footer-left{
+.footer-left {
     width: 33%;
     max-width: 387px;
 }
 
-.footer-center{
+.footer-center {
     width: 33%;
 }
 
-.footer-right{
+.footer-right {
     width: 33%;
     max-width: 484px;
 }
 
-.footer-left p{
+.footer-left p {
     font-size: 16px;
     line-height: 200%;
     text-align: left;
@@ -507,7 +540,7 @@ ul, ol{
     margin-bottom: 32px;
 }
 
-.footer-left span{
+.footer-left span {
     font-size: 14px;
     font-weight: 400;
     line-height: 150%;
@@ -515,22 +548,23 @@ ul, ol{
     text-align: left;
 }
 
-.footer-center a, .footer-center p{
+.footer-center a,
+.footer-center p {
     font-size: 16px;
     font-weight: 400;
     line-height: 200%;
 }
 
-.footer-center p{
+.footer-center p {
     display: inline-block;
 }
 
-.footer-right-content{
+.footer-right-content {
     display: flex;
     justify-content: space-between;
 }
 
-.footer-right-content a{
+.footer-right-content a {
     font-size: 16px;
     font-weight: 400;
     line-height: 200%;
@@ -542,26 +576,26 @@ ul, ol{
 
 /* Стили для страницы SEMINARS */
 
-.seminar-page{
+.seminar-page {
     background-color: #ffffff;
     margin-bottom: 28px;
 }
 
-.seminar-page h1{
+.seminar-page h1 {
     margin-bottom: 74px;
 }
 
-.seminar-page .lessons-card{
+.seminar-page .lessons-card {
     margin-bottom: 0;
     border-bottom: 1px solid #E4E4E4;
     border-radius: 0;
 }
 
-.seminar-page .lessons-card:first-child{
+.seminar-page .lessons-card:first-child {
     border-top: 1px solid #E4E4E4;
 }
 
-.seminar-page .lessons-inner h2{
+.seminar-page .lessons-inner h2 {
     margin-bottom: 74px;
 }
 
@@ -569,37 +603,37 @@ ul, ol{
 
 /* Стили для страницы COURSES */
 
-.courses{
+.courses {
     padding-top: 74px;
     padding-bottom: 122px;
     background-color: #FAFAFA;
 }
 
-.courses h1{
+.courses h1 {
     margin-bottom: 60px;
 }
 
-.courses h2{
+.courses h2 {
     margin-bottom: 60px;
     font-size: 48px;
     font-weight: 700;
     letter-spacing: 4.8px;
 }
 
-.courses-general{
+.courses-general {
     margin-bottom: 94px;
 }
 
-.courses-elective{
+.courses-elective {
     margin-bottom: 111px;
 }
 
-.courses-list{
+.courses-list {
     display: flex;
     flex-wrap: wrap;
 }
 
-.courses-list-item{
+.courses-list-item {
     background-color: #fff;
     padding: 20px;
     width: 25%;
@@ -611,21 +645,25 @@ ul, ol{
     margin-bottom: 16px;
 }
 
-.courses-list-item:nth-child(4), .courses-list-item:nth-child(8), .courses-list-item:nth-child(12), .courses-list-item:nth-child(16), .courses-list-item:nth-child(20){
+.courses-list-item:nth-child(4),
+.courses-list-item:nth-child(8),
+.courses-list-item:nth-child(12),
+.courses-list-item:nth-child(16),
+.courses-list-item:nth-child(20) {
     margin-right: 0;
 }
 
-.courses-list-item h3{
+.courses-list-item h6 {
     margin-bottom: 12px;
 }
 
-.courses-list-item p{
+.courses-list-item p {
     font-weight: 400;
     font-size: 15px;
     line-height: 200%;
 }
 
-.courses-list-item p span{
+.courses-list-item p span {
     font-weight: 700;
 }
 
@@ -633,34 +671,35 @@ ul, ol{
 
 /* Стили для страницы STAFF */
 
-.staff-inner{
+.staff-inner {
     padding-top: 74px;
     padding-bottom: 74px;
 }
 
-.staff-inner h1, .staff-inner h2{
+.staff-inner h1,
+.staff-inner h2 {
     margin-bottom: 74px;
 }
 
-.staff-content{
+.staff-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.staff-card{
+.staff-card {
     display: flex;
     width: 50%;
     max-width: 661px;
     margin-bottom: 50px;
 }
 
-.staff-card img{
+.staff-card img {
     margin-right: 25px;
     border-radius: 15px;
 }
 
-.staff-card h3{
+.staff-card h3 {
     font-size: 24px;
     font-weight: 700;
     line-height: 150%;
@@ -668,7 +707,8 @@ ul, ol{
     margin-bottom: 5px;
 }
 
-.staff-card p, .staff-card a{
+.staff-card p,
+.staff-card a {
     text-decoration: none;
     color: #171717;
     line-height: 200%;
@@ -677,7 +717,7 @@ ul, ol{
     margin-bottom: 5px;
 }
 
-.staff-card p span{
+.staff-card p span {
     font-weight: 700;
 }
 
@@ -686,19 +726,19 @@ ul, ol{
 
 /* Стили для страницы PUBLICATIONS */
 
-.publications-inner{
+.publications-inner {
     padding-top: 74px;
     padding-bottom: 14px;
 }
 
-.publications-title{
+.publications-title {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 74px;
 }
 
-.publications-title p{
+.publications-title p {
     font-family: "Ubuntu Sans", sans-serif;
     font-size: 48px;
     font-weight: 700;
@@ -709,40 +749,40 @@ ul, ol{
     letter-spacing: 4.8px;
 }
 
-.publications-inner h2{
+.publications-inner h2 {
     font-size: 48px;
     margin-bottom: 0;
     letter-spacing: 4.8px;
 }
 
-.publications-content{
+.publications-content {
     margin-bottom: 65px;
 }
 
-.publications-item{
+.publications-item {
     padding: 22px 25px 25px 25px;
     border-bottom: 1px solid #E4E4E4;
 }
 
-.publications-item:first-child{
+.publications-item:first-child {
     border-top: 1px solid #E4E4E4;
 }
 
-.publications-item p{
+.publications-item p {
     font-size: 16px;
     font-weight: 600;
     line-height: 200%;
     margin-bottom: 9px;
 }
 
-.publications-item span{
+.publications-item span {
     font-size: 16px;
     line-height: 200%;
     font-weight: 400;
 }
 
 
-.publications-item a{
+.publications-item a {
     font-size: 16px;
     line-height: 200%;
     font-weight: 400;
@@ -754,25 +794,25 @@ ul, ol{
 
 /* Стили для страницы PARTNERS */
 
-.partners{
+.partners {
     background-color: #FAFAFA;
 }
 
-.partners-inner{
+.partners-inner {
     padding-top: 74px;
     padding-bottom: 116.33px;
 }
 
-.partners-inner h1{
+.partners-inner h1 {
     margin-bottom: 74px;
 }
 
-.partners-content{
+.partners-content {
     display: flex;
     flex-wrap: wrap;
 }
 
-.partners-card{
+.partners-card {
     width: 25%;
     max-width: 319px;
     background-color: #fff;
@@ -783,24 +823,28 @@ ul, ol{
     margin-right: 16px;
 }
 
-.partners-card:nth-child(4), .partners-card:nth-child(8), .partners-card:nth-child(12), .partners-card:nth-child(16), .partners-card:nth-child(20){
+.partners-card:nth-child(4),
+.partners-card:nth-child(8),
+.partners-card:nth-child(12),
+.partners-card:nth-child(16),
+.partners-card:nth-child(20) {
     margin-right: 0;
 }
 
-.partners-card img{
+.partners-card img {
     width: 100%;
     margin-bottom: 21px;
 }
 
-.partners-card a{
+.partners-card a {
     color: #171717;
 }
 
-.partners-card a:hover{
+.partners-card a:hover {
     color: #004AAD;
 }
 
-.partners-card p{
+.partners-card p {
     font-size: 20px;
     font-weight: 600;
     line-height: 156%;
@@ -810,16 +854,16 @@ ul, ol{
 
 /* Стили для страницы PROJECTS */
 
-.projects-inner{
+.projects-inner {
     padding-top: 74px;
     padding-bottom: 82px;
 }
 
-.projects-main h1{
+.projects-main h1 {
     margin-bottom: 58px;
 }
 
-.projects-main p{
+.projects-main p {
     max-width: 777px;
     text-align: center;
     margin: 0 auto;
@@ -829,13 +873,14 @@ ul, ol{
     line-height: 200%;
 }
 
-.projects-info{
+.projects-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 59px;
 }
 
-.info-card{
+.info-card {
     width: 25%;
     max-width: 319px;
     text-align: center;
@@ -847,7 +892,7 @@ ul, ol{
     align-items: center;
 }
 
-.info-card p{
+.info-card p {
     max-width: 259px;
     color: #004AAD;
     font-size: 20px;
@@ -856,4 +901,1771 @@ ul, ol{
     margin-bottom: 0;
 }
 
+.projects-main p:last-child {
+    margin-bottom: 0;
+}
+
+.work {
+    background-color: #FAFAFA;
+    padding-top: 74px;
+    padding-bottom: 87px;
+}
+
+.work h3 {
+    text-align: center;
+    max-width: 873px;
+    margin: 0 auto;
+    margin-bottom: 39px;
+    color: #004AAD;
+}
+
+.work-slider {
+    max-width: 928px;
+    margin: 0 auto;
+    margin-bottom: 137px;
+    background-color: #fff;
+    padding: 20px 30px 24px 30px;
+    border-radius: 15px;
+}
+
+.work-slider-item p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+.project-prev {
+    border: none;
+    background-image: url(../img/icons/left.png);
+    width: 45px;
+    max-width: 45px;
+    height: 45px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    transition: all .5s;
+    position: absolute;
+    top: 125%;
+    left: 42%;
+}
+
+.project-prev:hover {
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.20);
+    transition: all .5s;
+    cursor: url('../img/icons/cursor-material.png'), auto;
+}
+
+.project-next {
+    border: none;
+    background-image: url(../img/icons/right.png);
+    width: 45px;
+    max-width: 45px;
+    height: 45px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    transition: all .5s;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+}
+
+.project-next:hover {
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.20);
+    transition: all .5s;
+    cursor: url('../img/icons/cursor-material.png'), auto;
+}
+
+.work-text {
+    max-width: 928px;
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+    padding: 42px 59px;
+    border-radius: 30px;
+}
+
+.work-text h3 {
+    margin-bottom: 28px;
+}
+
+.work-text p {
+    font-size: 16px;
+    line-height: 200%;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+
+.current {
+    padding-top: 74px;
+    padding-bottom: 74px;
+}
+
+.current h2 {
+    margin-bottom: 62px;
+}
+
+.current-content {
+    margin-bottom: 74px;
+}
+
+.project-card {
+    display: flex;
+    padding: 30px;
+    border-bottom: 1px solid #E4E4E4;
+    transition: all .5s;
+    cursor: url('../img/icons/cursor-material.png'), auto;
+}
+
+.project-card:hover {
+    background-color: #FAFAFA;
+    border-bottom: 4px solid #004AAD;
+    transition: all .5s;
+}
+
+.project-card:first-child {
+    border-top: 1px solid #E4E4E4;
+}
+
+.project-card img {
+    margin-right: 57px;
+    border-radius: 15px;
+}
+
+.project-card-info h5 {
+    margin-bottom: 20px;
+}
+
+.project-card-info p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 200%;
+    margin-bottom: 20px;
+}
+
+.project-card-info a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 200%;
+}
+
 /* Конец стилей для страницы PROJECTS */
+
+/* Стили страницы конкретного проекта */
+
+.case {
+    background-color: #FAFAFA;
+}
+
+.case-inner {
+    padding-top: 74px;
+    padding-bottom: 74px;
+    display: flex;
+}
+
+.case-banner {
+    margin-right: 24px;
+}
+
+.case-banner img {
+    width: 319px;
+    max-width: 319px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.case-banner p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 200%;
+    margin-bottom: 5px;
+}
+
+.case-banner p span {
+    font-weight: 700;
+}
+
+.case-info h3 {
+    color: #004AAD;
+    margin-bottom: 46px;
+}
+
+.case-info-text {
+    margin-bottom: 56px;
+}
+
+.case-info-text p {
+    font-size: 16px;
+    line-height: 200%;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.case-info-text span{
+    font-size: 16px;
+    line-height: 200%;
+    font-weight: 400;
+    text-align: left; 
+}
+
+.case-info-text ul{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.case-info-text ul li{
+    font-size: 16px;
+    line-height: 200%;
+    font-weight: 400;
+    list-style-type: disc;
+}
+
+.case-info a {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 200%;
+    padding: 3px 27px 6px 27px;
+    background-color: #004AAD;
+    color: #fff;
+    border-radius: 86px;
+    display: inline-block;
+    min-width: 158px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.case-info-text a {
+    color: #004AAD;
+    text-decoration: underline;
+    font-size: 16px;
+    line-height: 200%;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+    display: block;
+}
+
+/* Конец стилей страницы конкретного проекта */
+
+@media (max-width: 1199.98px) {
+    .presonal-inner {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .personal-info,
+    .personal-foto {
+        width: 49%;
+    }
+
+    .slick-prev {
+        top: -38%;
+        right: 7%;
+    }
+
+    .slick-next {
+        top: -38%;
+    }
+
+    .courses-list-item {
+        width: 31%;
+        min-height: 196px;
+    }
+
+    .courses-list-item:nth-child(4),
+    .courses-list-item:nth-child(8) {
+        margin-right: 16px;
+    }
+
+    .footer-right-content ul:first-child {
+        width: 40%;
+    }
+
+    .footer-right-content ul:last-child {
+        width: 60%;
+    }
+
+    /* Адаптив PARTNERS */
+
+    .partners-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .partners-inner h1 {
+        margin-bottom: 20px;
+    }
+
+    .partners-content {
+        justify-content: center;
+    }
+
+    .partners-card {
+        width: 31%;
+    }
+
+    .partners-card:nth-child(4),
+    .partners-card:nth-child(8) {
+        margin-right: 16px;
+    }
+
+    /* Конец */
+
+    /* Адаптив страницы проекта */
+
+    .case-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .case-banner {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .case-banner img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .case-info {
+        margin-bottom: 20px;
+    }
+
+    .case-info-text {
+        margin-bottom: 20px;
+    }
+
+    .case-info h3 {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .case-info-text p {
+        font-size: 12px;
+    }
+
+    .case-info a {
+        font-size: 16px;
+        min-width: 120px;
+    }
+
+    /* Конец */
+
+    /* Анадптив STAFF */
+
+    .staff-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .staff-inner h1,
+    .staff-inner h2 {
+        margin-bottom: 20px;
+    }
+
+    .staff-content {
+        justify-content: center;
+    }
+
+    .staff-card {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    /* Конец */
+
+    /* Адаптив PROJECTS */
+    
+    .projects-inner{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .projects-main h1{
+        margin-bottom: 20px;
+    }
+
+    .projects-main p{
+        margin-bottom: 20px;
+    }
+
+    .projects-info{
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+
+    .info-card{
+        width: 49%;
+        max-width: 100%;
+        margin-bottom: 25px;
+    }
+
+
+
+    /* Конец */
+
+}
+
+@media (max-width: 991.98px) {
+
+    .header {
+        border-bottom: none;
+    }
+
+    .menu-inner .navbar-toggler {
+        display: block;
+    }
+
+    .menu-inner {
+        padding-top: 10px;
+    }
+
+    .menu-inner .navbar-brand {
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu-inner .navbar-brand img {
+        max-width: 50px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-inner .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .presonal-inner {
+        flex-direction: column-reverse;
+    }
+
+    .personal-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .personal-info h2 {
+        text-align: center;
+    }
+
+    .personal-info p {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .personal-foto {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .personal-foto img {
+        max-width: 100%;
+    }
+
+    .blog-inner {
+        flex-wrap: wrap;
+    }
+
+    .blog-card {
+        width: 49%;
+        max-width: 100%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding: 15px;
+    }
+
+    .blog-card img {
+        max-width: 100%;
+    }
+
+    .blog-card:nth-child(2),
+    .blog-card:nth-child(4) {
+        margin-right: 0;
+    }
+
+    .slick-prev {
+        top: -37%;
+        right: 10%;
+    }
+
+    .slick-next {
+        top: -37%;
+        right: 3%;
+    }
+
+    /* Адаптив COURSES */
+
+    .courses {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .courses-general {
+        margin-bottom: 30px;
+    }
+
+    .courses h1 {
+        margin-bottom: 30px;
+    }
+
+    .courses-list-item {
+        width: 31%;
+        min-height: 234px;
+    }
+
+    .courses-list-item:nth-child(4),
+    .courses-list-item:nth-child(8) {
+        margin-right: 16px;
+    }
+
+    .courses-elective {
+        margin-bottom: 30px;
+    }
+
+    .courses h2 {
+        margin-bottom: 30px;
+    }
+
+    .footer-right-content ul:first-child {
+        width: 40%;
+    }
+
+    .footer-right-content ul:last-child {
+        width: 60%;
+    }
+
+    /* Конец */
+
+    /* Адаптив PARTNERS */
+
+    .partners-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .partners-inner h1 {
+        margin-bottom: 20px;
+    }
+
+    .partners-content {
+        justify-content: center;
+    }
+
+    .partners-card {
+        width: 31%;
+    }
+
+    .partners-card:nth-child(4),
+    .partners-card:nth-child(8) {
+        margin-right: 16px;
+    }
+
+    /* Конец */
+
+    /* Адаптив PUBLICATIONS */
+
+    .publications-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .publications-title {
+        margin-bottom: 20px;
+    }
+
+    .publications-title h1 {
+        margin-bottom: 0;
+    }
+
+    .publications-content {
+        margin-bottom: 20px;
+    }
+
+    /* Конец */
+
+    /* Адаптив SEMINARS */
+
+    .lessons-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .seminar-page h1 {
+        margin-bottom: 20px;
+    }
+
+    /* Конец */
+
+    /* Адаптив страницы проекта */
+
+    .case-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .case-banner {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .case-banner img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .case-info {
+        margin-bottom: 20px;
+    }
+
+    .case-info-text {
+        margin-bottom: 20px;
+    }
+
+    .case-info h3 {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .case-info-text p {
+        font-size: 12px;
+    }
+
+    .case-info a {
+        font-size: 16px;
+        min-width: 120px;
+    }
+
+    /* Конец */
+
+    /* Анадптив STAFF */
+
+    .staff-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .staff-inner h1,
+    .staff-inner h2 {
+        margin-bottom: 20px;
+    }
+
+    .staff-content {
+        justify-content: center;
+    }
+
+    .staff-card {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    /* Конец */
+
+    /* Адаптив PROJECTS */
+
+    .projects-inner{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .projects-main h1{
+        margin-bottom: 20px;
+    }
+
+    .projects-main p{
+        margin-bottom: 20px;
+    }
+
+    .projects-info{
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+
+    .info-card{
+        width: 48.5%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .work-slider{
+        margin-bottom: 90px;
+    }
+
+    .project-prev{
+        top: 108%;
+    }
+
+    .project-next{
+        top: 108%;
+    }
+
+    .work, .current{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .current{
+        padding-bottom: 50px;
+    }
+
+    .current h2{
+        margin-bottom: 20px;
+    }
+
+    .current-content{
+        margin-bottom: 20px;
+    }
+
+    /* Конец */
+
+}
+
+@media (max-width: 767.98px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .header {
+        border-bottom: none;
+    }
+
+    .menu-inner .navbar-toggler {
+        display: block;
+    }
+
+    .menu-inner {
+        padding-top: 10px;
+    }
+
+    .menu-inner .navbar-brand {
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu-inner .navbar-brand img {
+        max-width: 50px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .menu-inner .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .main {
+        margin-bottom: 30px;
+    }
+
+    .main-inner p {
+        font-size: 20px;
+    }
+
+    .about {
+        margin-bottom: 10px;
+    }
+
+    .about-inner p {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .research {
+        margin-bottom: 30px;
+    }
+
+    .research-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .research-inner p {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 1px 15px 3px 15px;
+    }
+
+    .personal {
+        margin-bottom: 30px;
+    }
+
+    .presonal-inner {
+        flex-direction: column-reverse;
+    }
+
+    .personal-info,
+    .personal-foto {
+        width: 100%;
+        text-align: center;
+    }
+
+    .personal-info h2 {
+        text-align: center;
+    }
+
+    .personal-info p,
+    .lectures-inner p {
+        font-size: 12px;
+        margin-bottom: 15px;
+        text-align: center;
+        line-height: 200%;
+    }
+
+    .personal-foto {
+        margin-bottom: 10px;
+    }
+
+    .lectures {
+        margin-bottom: 30px;
+    }
+
+
+    .lectures-inner p {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .blog-inner {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .blog-card {
+        width: 100%;
+        margin-bottom: 20px;
+        min-height: fit-content;
+        max-height: 300px;
+    }
+
+    .blog-card:last-child {
+        margin-bottom: 0;
+    }
+
+    .blog-card p {
+        text-align: left;
+    }
+
+    .blog-card img {
+        margin-bottom: 9px;
+    }
+
+    .blog-card h6 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .lessons {
+        margin-bottom: 25px;
+    }
+
+    .lessons-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .lessons-inner p {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .lessons-card {
+        flex-direction: column;
+        margin-bottom: 25px;
+        padding: 20px;
+    }
+
+    .lessons-card img {
+        margin-right: 0;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .lesson-info h6 {
+        font-size: 16px;
+    }
+
+    .lesson-info p,
+    .lesson-info p span {
+        font-size: 12px;
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .articles {
+        margin-bottom: 25px;
+    }
+
+    .articles-inner p {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .friends-inner {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .friends-inner h2 {
+        margin-bottom: 20px;
+    }
+
+    .friends-slider {
+        margin-bottom: 30px;
+    }
+
+    .friends-slider-item {
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    .friends-slider-foto img {
+        margin: 0 auto;
+        margin-bottom: 21px;
+    }
+
+    .slick-prev {
+        top: -21%;
+        right: 20%;
+    }
+
+    .slick-next {
+        top: -21%;
+        right: 3%;
+    }
+
+    .footer-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .footer-left {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer-left p {
+        margin-bottom: 10px;
+    }
+
+    .footer-center {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer-right-content {
+        flex-direction: column;
+    }
+
+    /* Адаптив COURSES */
+
+    .courses {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .courses-general {
+        margin-bottom: 20px;
+    }
+
+    .courses h1 {
+        margin-bottom: 20px;
+    }
+
+    .courses h2 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .courses-list {
+        justify-content: center;
+    }
+
+    .courses-list-item {
+        width: 50%;
+        margin-right: 16px;
+    }
+
+    .courses-elective {
+        margin-bottom: 20px;
+    }
+
+    /* Конец */
+
+    /* Адаптив PARTNERS */
+
+    .partners-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .partners-inner h1 {
+        margin-bottom: 20px;
+    }
+
+    .partners-content {
+        justify-content: center;
+    }
+
+    .partners-card {
+        width: 49%;
+        margin-right: 16px;
+    }
+
+    .partners-card:nth-child(12) {
+        margin-right: 16px;
+    }
+
+    /* Конец */
+
+    /* Адаптив PUBLICATIONS */
+
+    .publications-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .publications-title {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .publications-title p {
+        font-size: 28px;
+    }
+
+    .publications-content {
+        margin-bottom: 20px;
+    }
+
+    .publications-inner h2 {
+        font-size: 28px;
+    }
+
+    /* Конец */
+
+    /* Адаптив SEMINARS */
+
+    .seminar-page h1 {
+        margin-bottom: 20px;
+    }
+
+    /* Конец */
+
+    /* Анадптив STAFF */
+
+    .staff-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .staff-inner h1,
+    .staff-inner h2 {
+        margin-bottom: 20px;
+    }
+
+    .staff-card {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .staff-card h3 {
+        font-size: 20px;
+    }
+
+    .staff-card img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .staff-inner h2 {
+        margin-bottom: 20px;
+    }
+
+    /* Конец */
+
+    /* Адаптив PROJECTS */
+
+    .projects-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .projects-main h1 {
+        margin-bottom: 20px;
+    }
+
+    .projects-main p {
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+
+    .projects-info {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .info-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .info-card p {
+        font-size: 20px;
+    }
+
+    .work {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .work h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .work-slider {
+        margin-bottom: 60px;
+    }
+
+    .work-slider-item p {
+        font-size: 12px;
+    }
+
+    .project-prev {
+        top: 102.5%;
+        left: 30%;
+    }
+
+    .project-next {
+        top: 102.5%;
+        left: 50%;
+    }
+
+    .work-text {
+        padding: 20px 30px;
+    }
+
+    .work-text p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .current {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .current h2 {
+        margin-bottom: 20px;
+    }
+
+    .current-content {
+        margin-bottom: 20px;
+    }
+
+    .project-card {
+        flex-direction: column;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .project-card img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .project-card-info h5 {
+        font-size: 14px;
+    }
+
+    .project-card-info p {
+        font-size: 12px;
+    }
+
+    .project-card-info a {
+        font-size: 12px;
+    }
+
+    /* Конец */
+
+}
+
+@media (max-width: 575.98px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .header {
+        border-bottom: none;
+    }
+
+    .menu-inner .navbar-toggler {
+        display: block;
+    }
+
+    .menu-inner {
+        padding-top: 10px;
+    }
+
+    .menu-inner .navbar-brand {
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu-inner .navbar-brand img {
+        max-width: 50px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .menu-inner .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .main {
+        margin-bottom: 30px;
+    }
+
+    .main-inner p {
+        font-size: 20px;
+    }
+
+    .about {
+        margin-bottom: 10px;
+    }
+
+    .about-inner p {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .research {
+        margin-bottom: 30px;
+    }
+
+    .research-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .research-inner p {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 1px 15px 3px 15px;
+    }
+
+    .personal {
+        margin-bottom: 30px;
+    }
+
+    .presonal-inner {
+        flex-direction: column-reverse;
+    }
+
+    .personal-info,
+    .personal-foto {
+        width: 100%;
+        text-align: center;
+    }
+
+    .personal-info h2 {
+        text-align: center;
+    }
+
+    .personal-info p,
+    .lectures-inner p {
+        font-size: 12px;
+        margin-bottom: 15px;
+        text-align: center;
+        line-height: 200%;
+    }
+
+    .personal-foto {
+        margin-bottom: 10px;
+    }
+
+    .lectures {
+        margin-bottom: 30px;
+    }
+
+
+    .lectures-inner p {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .blog-inner {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .blog-card {
+        width: 100%;
+        margin-bottom: 20px;
+        min-height: fit-content;
+        max-height: 300px;
+    }
+
+    .blog-card:last-child {
+        margin-bottom: 0;
+    }
+
+    .blog-card p {
+        text-align: left;
+    }
+
+    .blog-card img {
+        margin-bottom: 9px;
+    }
+
+    .blog-card h6 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .lessons {
+        margin-bottom: 25px;
+    }
+
+    .lessons-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .lessons-inner p {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .lessons-card {
+        flex-direction: column;
+        margin-bottom: 25px;
+        padding: 20px;
+    }
+
+    .lessons-card img {
+        margin-right: 0;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .lesson-info h6 {
+        font-size: 16px;
+    }
+
+    .lesson-info p,
+    .lesson-info p span {
+        font-size: 12px;
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .articles {
+        margin-bottom: 25px;
+    }
+
+    .articles-inner p {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .friends-inner {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .friends-inner h2 {
+        margin-bottom: 20px;
+    }
+
+    .friends-slider {
+        margin-bottom: 30px;
+    }
+
+    .friends-slider-item {
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    .friends-slider-foto img {
+        margin: 0 auto;
+        margin-bottom: 21px;
+    }
+
+    .slick-prev {
+        top: -21%;
+        right: 20%;
+    }
+
+    .slick-next {
+        top: -21%;
+        right: 3%;
+    }
+
+    .footer-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .footer-left {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer-left p {
+        margin-bottom: 10px;
+    }
+
+    .footer-center {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer-right-content {
+        flex-direction: column;
+    }
+
+    /* Адаптив COURSES */
+
+    .courses {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .courses-general {
+        margin-bottom: 20px;
+    }
+
+    .courses h1 {
+        margin-bottom: 20px;
+    }
+
+    .courses h2 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .courses-list {
+        justify-content: center;
+    }
+
+    .courses-list-item {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .courses-elective {
+        margin-bottom: 20px;
+    }
+
+    /* Конец */
+
+    /* Адаптив PARTNERS */
+
+    .partners-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .partners-inner h1 {
+        margin-bottom: 20px;
+    }
+
+    .partners-content {
+        justify-content: center;
+    }
+
+    .partners-card {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /* Конец */
+
+    /* Адаптив PUBLICATIONS */
+
+    .publications-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .publications-title {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .publications-title p {
+        font-size: 28px;
+    }
+
+    .publications-content {
+        margin-bottom: 20px;
+    }
+
+    .publications-inner h2 {
+        font-size: 28px;
+    }
+
+    /* Конец */
+
+    /* Адаптив SEMINARS */
+
+    .seminar-page h1 {
+        margin-bottom: 20px;
+    }
+
+    /* Конец */
+
+    /* Адаптив страницы проекта */
+
+    .case-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .case-banner {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .case-banner img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .case-info {
+        margin-bottom: 20px;
+    }
+
+    .case-info-text {
+        margin-bottom: 20px;
+    }
+
+    .case-info h3 {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .case-info-text p {
+        font-size: 12px;
+    }
+
+    .case-info-text span{
+        font-size: 12px;
+    }
+
+    .case-info-text ul li{
+        margin-bottom: 3px;
+        font-size: 12px;
+    }
+
+    .case-info a {
+        font-size: 16px;
+        min-width: 120px;
+    }
+
+    /* Конец */
+
+    /* Анадптив STAFF */
+
+    .staff-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .staff-inner h1,
+    .staff-inner h2 {
+        margin-bottom: 20px;
+    }
+
+    .staff-card {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .staff-card h3 {
+        font-size: 20px;
+    }
+
+    .staff-card img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .staff-inner h2 {
+        margin-bottom: 20px;
+    }
+
+    /* Конец */
+
+
+    /* Адаптив PROJECTS */
+
+    .projects-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .projects-main h1 {
+        margin-bottom: 20px;
+    }
+
+    .projects-main p {
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+
+    .projects-info {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .info-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .info-card p {
+        font-size: 20px;
+    }
+
+    .work {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .work h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .work-slider {
+        margin-bottom: 60px;
+    }
+
+    .work-slider-item p {
+        font-size: 12px;
+    }
+
+    .project-prev {
+        top: 102.5%;
+        left: 30%;
+    }
+
+    .project-next {
+        top: 102.5%;
+        left: 50%;
+    }
+
+    .work-text {
+        padding: 20px 30px;
+    }
+
+    .work-text p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .current {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .current h2 {
+        margin-bottom: 20px;
+    }
+
+    .current-content {
+        margin-bottom: 20px;
+    }
+
+    .project-card {
+        flex-direction: column;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .project-card img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .project-card-info h5 {
+        font-size: 14px;
+    }
+
+    .project-card-info p {
+        font-size: 12px;
+    }
+
+    .project-card-info a {
+        font-size: 12px;
+    }
+
+    /* Конец */
+
+}
